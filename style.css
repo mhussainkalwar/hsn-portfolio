@@ -51,7 +51,7 @@ img { max-width: 100%; display: block; }
 .box a { margin-right: 12px; }
 
 /* 16:9 project photos. Any photo you add is cropped to 16:9 automatically */
-.box img.wide { aspect-ratio: 16/9; object-fit: cover; object-position: center 30%; }
+.box img.wide { aspect-ratio: 16 / 9; object-fit: cover; object-position: center 20%; }
 
 /* Small platform icons (WhatsApp, LinkedIn) */
 .box img.icon { display: inline-block; width: 24px; height: 24px; margin: 0 6px 0 0; background: none; vertical-align: middle; }
