@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | HSN</title>
+  <link rel="icon" href="images/favicon.png">
+  <!-- Connects the CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MENU: same on every page. class="active" highlights the current page -->
+  <div class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html"><img class="logo" src="images/logo.png" alt="HSN logo"></a>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 1. TOP PART: heading (the word changes with JavaScript), buttons and team photos -->
+  <div class="container hero">
+    <h1>We are <span id="word">Students</span></h1>
+    <p>HSN is a team of three cybersecurity students building creative and technical work: thumbnails, websites and security projects.</p>
+    <a class="btn" href="portfolio.html">View Portfolio</a>
+    <a class="btn outline" href="contact.html">Contact Us</a>
+
+    <!-- Photos: Hussain in front, Niaz on the left, Saqib on the right -->
+    <div class="stage">
+      <img class="left" src="images/niazhome.png" alt="Niaz">
+      <img class="right" src="images/saqibhome.png" alt="Saqib">
+      <img class="front" src="images/hussainhome.png" alt="Hussain">
+    </div>
+  </div>
+
+  <!-- 2. AT A GLANCE: three boxes with big numbers (change the numbers and text freely) -->
+  <div class="section alt" style="text-align: center;">
+    <div class="container">
+      <h2>HSN at a glance</h2>
+      <div class="grid">
+        <div class="box"><h1>3</h1><p>Team members who work together</p></div>
+        <div class="box"><h1>2</h1><p>Security sides covered: defensive and offensive</p></div>
+        <div class="box"><h1>4</h1><p>Main skills: C++, HTML, JavaScript and Photoshop</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. WHO WE ARE: text box on the left, team photo on the right -->
+  <div class="section">
+    <div class="container">
+      <h2>Who we are</h2>
+      <div class="grid">
+        <div class="box">
+          <p>We are first semester Cyber Security students at Aror University.</p>
+          <br>
+          <p>Hussain and Saqib want to work on the defensive side of cybersecurity, protecting systems. Niaz wants to work on the offensive side, learning how attacks work.</p>
+          <br>
+          <p>Together we cover both sides of security, and we also enjoy design and web development.</p>
+          <a class="btn" href="about.html">Read More</a>
+        </div>
+        <div class="box"><img class="wide" src="images/project-1.jpg" alt="HSN team"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. WHAT WE DO: boxes (copy or delete a box if needed) -->
+  <div class="section alt" >
+    <div class="container">
+      <h2>What we do</h2>
+      <div class="grid">
+        <div class="box"><h3>Design</h3><p>Eye-catching visuals and YouTube thumbnails.</p></div>
+        <div class="box"><h3>Web</h3><p>Clean, simple websites with HTML and JavaScript.</p></div>
+        <div class="box"><h3>Defensive Security</h3><p>Learning how to protect systems and data.</p></div>
+        <div class="box"><h3>Offensive Security</h3><p>Learning how attacks work so they can be stopped.</p></div>
+        <div class="box"><h3>Programming</h3><p>Writing C++ programs and solving problems with code.</p></div>
+        <div class="box"><h3>Teamwork</h3><p>Sharing work fairly and helping each other learn.</p></div>
+        <div class="box"><h3>Solve Problem</h3><p>We slove problems together.</p></div>
+        <div class="box"><h3>Computer Skills</h3><p>We are tech guys, so we know computers well.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. MEET THE TEAM: photo, name and role -->
+  <div class="section" style="text-align: center;">
+    <div class="container">
+      <h2>Meet the team</h2>
+      <div class="grid">
+        <div class="box">
+          <img src="images/hussain.png" alt="Muhammad Hussain">
+          <h3>Muhammad Hussain</h3>
+          <p class="role">Defensive side, Thumbnail Designer</p>
+        </div>
+        <div class="box">
+          <img src="images/niaz.png" alt="Niaz Ahmed">
+          <h3>Niaz Ahmed</h3>
+          <p class="role">Offensive side</p>
+        </div>
+        <div class="box">
+          <img src="images/saqib.png" alt="Muhammad Saqib">
+          <h3>Muhammad Saqib</h3>
+          <p class="role">Defensive side</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. WHY WORK WITH US: a list -->
+  <div class="section alt">
+    <div class="container">
+      <h2>Why work with us</h2>
+      <ul>
+        <li>We are creative</li>
+        <li>We know how to solve problems</li>
+        <li>Three skill sets in one team</li>
+        <li>Clear communication</li>
+        <li>Work delivered on time</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 7. PHOTOS: three photos from the gallery (class="gallery" gives round corners) -->
+  <div class="section" style="text-align: center;">
+    <div class="container">
+      <h2>Moments together</h2>
+      <div class="gallery">
+        <img src="images/photo-2.jpg" alt="Team photo">
+        <img src="images/photo-3.jpg" alt="Hussain and Niaz">
+        <img src="images/photo-4.jpg" alt="Hussain and Niaz">
+      </div>
+      <a class="btn" href="gallery.html">See Gallery</a>
+    </div>
+  </div>
+
+  <!-- 8. LAST PART: call to action -->
+  <div class="section alt">
+    <div class="container hero">
+      <h2>Ready to work with us?</h2>
+      <p>Send us a message on WhatsApp or LinkedIn and we will reply soon.</p>
+      <a class="btn" href="contact.html">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- FOOTER: same on every page -->
+  <div class="footer">
+    <div class="container">
+      <strong>HSN</strong>
+      <ul>
+        <li>Muhammad Hussain | Roll No: 5000020438</li>
+        <li>Niaz Ahmed | Roll No: 5000020433</li>
+        <li>Muhammad Saqib | Roll No: 5000020434</li>
+      </ul>
+      <small>&copy; 2026 HSN. All rights reserved.</small>
+    </div>
+  </div>
+
+  <!-- JavaScript file (text changer) -->
+  <script src="script.js"></script>
+</body>
+</html>
