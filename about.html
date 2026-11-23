@@ -14,7 +14,9 @@
   <div class="navbar">
     <div class="container nav-inner">
       <a href="index.html"><img class="logo" src="images/logo.png" alt="HSN logo"></a>
-      <ul>
+      <!-- NEW: menu button, only visible on small (mobile) screens. script.js shows/hides the menu when it is clicked -->
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">&#9776;</button>
+      <ul id="navLinks"> <!-- NEW: id lets script.js find this menu -->
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html" class="active">About</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
@@ -85,5 +87,8 @@
       <small>&copy; 2026 HSN. All rights reserved.</small>
     </div>
   </div>
+
+  <!-- NEW: JavaScript file (menu button) -->
+  <script src="script.js"></script>
 </body>
 </html>

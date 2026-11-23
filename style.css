@@ -67,3 +67,14 @@ img { max-width: 100%; display: block; }
 /* Bottom bar */
 .footer { background: var(--ink); color: white; padding: 25px 0; text-align: center; }
 .footer ul { list-style: none; margin: 8px 0; }
+
+/* ===== NEW: MENU BUTTON FOR MOBILE ===== */
+/* The button is hidden on big screens */
+.menu-btn { display: none; background: white; border: 2px solid var(--blue); color: var(--blue); font-size: 1.4rem; padding: 2px 12px; border-radius: 6px; cursor: pointer; }
+
+/* On screens 760px wide or smaller (phones) */
+@media (max-width: 760px) {
+  .menu-btn { display: block; }                                        /* show the button */
+  .navbar ul { display: none; flex-direction: column; width: 100%; }   /* hide the menu and stack the links */
+  .navbar ul.open { display: flex; }                                   /* script.js adds "open" to show it */
+}
